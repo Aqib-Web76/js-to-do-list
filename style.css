@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nerko One", cursive;
+}
+body{
+    background-color: rgb(232, 238, 238);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container{
+    width: 100%;
+    text-align: center;
+    max-width: 500px;
+    padding: 20px;
+}
